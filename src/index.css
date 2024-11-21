@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face{
+    font-family: font;
+    src: url()
+}
+
+@font-face {
+    font-family: 'BasicallyAMono';
+    src: url('./BasicallyAMono-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
